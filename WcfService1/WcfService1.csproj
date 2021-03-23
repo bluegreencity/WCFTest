@@ -23,7 +23,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <DockerLaunchAction>LaunchWcfTestClient</DockerLaunchAction>
+    <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerLaunchUrl>http://{ServiceIPAddress}/Service1.svc</DockerLaunchUrl>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
