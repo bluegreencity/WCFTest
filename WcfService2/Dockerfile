@@ -3,5 +3,5 @@
 
 FROM mcr.microsoft.com/dotnet/framework/wcf:4.8-windowsservercore-ltsc2019
 ARG source
-WORKDIR /WcfService2
-COPY /WcfService2/ .
+WORKDIR /inetpub/wwwroot
+COPY ${source:-obj/Docker/publish} .
