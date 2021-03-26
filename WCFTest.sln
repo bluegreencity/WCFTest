@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService2", "WcfService2\
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2B743737-BA29-407F-BCAE-BC8198CD0FE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{0DCE9719-CA7C-424F-A772-6D97F339C6EB}"
+	ProjectSection(SolutionItems) = preProject
+		WcfService1_deploy.yml = WcfService1_deploy.yml
+		WcfService2_deploy.yml = WcfService2_deploy.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
