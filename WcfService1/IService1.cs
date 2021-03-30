@@ -23,7 +23,7 @@ namespace WcfService1
     }
 
 
-    // 아래 샘플에 나타낸 것처럼 데이터 계약을 사용하여 복합 형식을 서비스 작업에 추가합니다..
+    // 아래 샘플에 나타낸 것처럼 데이터 계약을 사용하여 복합 형식을 서비스 작업에 추가합니다.
     [DataContract]
     public class CompositeType
     {
